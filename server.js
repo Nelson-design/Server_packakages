@@ -106,5 +106,6 @@ server.delete("/blog/:id", (req, res) => {
     })
 })
 
+// start server
 server.listen(port, () => console.log(`server running on a ${port}`));
 
